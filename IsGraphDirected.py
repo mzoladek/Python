@@ -1,8 +1,3 @@
-n = input()
-m = n.split()
-
-skierowany = False
-
 """
 Oto program, który pobiera od użytkownika macierz sąsiedztwa, a następnie wyświetla informację o tym czy graf jest skierowany czy nie.
 
@@ -31,7 +26,10 @@ Sample Output 2:
 Graf jest skierowany
 
 """
+n = input()
+m = n.split()
 
+skierowany = False
 
 lista_elementow = []
 
